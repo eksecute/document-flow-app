@@ -1,0 +1,11 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": "54321",
+  "username": "postgres",
+  "password": "",
+  "database": "documentflow",
+  "synchronize": "true",
+  "logging": "true",
+  "entities": ["./src/**/*.entity.ts", "./src/**/*.entity.js"]
+}
